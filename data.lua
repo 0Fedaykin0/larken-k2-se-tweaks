@@ -23,12 +23,13 @@ if mods["space-exploration"] and mods["Krastorio2"] then
                     icons = {
                         {
                             icon = matterIcon,
-                            icon_size = 128
+                            icon_size = 256,
+                            scale = 1
                         },
                         {
                             icon = "__space-exploration-graphics__/graphics/technology/" .. tech_image .. ".png",
                             icon_size = 128,
-                            scale = 0.5
+                            scale = 1
                         }
                     },
                     effects = {},

@@ -172,9 +172,9 @@ if mods["space-exploration"] and mods["Krastorio2"] then
                                                                  2)
                         end
                         -- Apply a new debuff based on the provided ratio
-                        ingredient.amount = math.floor(
+                        ingredient.amount = 
                                                 0.5 + ingredient.amount *
-                                                    nerf_factor)
+                                                    nerf_factor
                         if ingredient.catalyst_amount then
                             ingredient.catalyst_amount = math.floor(0.5 +
                                                                         ingredient.catalyst_amount *
